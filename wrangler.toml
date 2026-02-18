@@ -1,0 +1,11 @@
+name = "cf-ai-log-copilot"
+main = "src/worker.ts"
+compatibility_date = "2025-02-01"
+
+[[durable_objects.bindings]]
+name = "SESSION_DO"
+class_name = "SessionDO"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["SessionDO"]
