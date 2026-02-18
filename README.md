@@ -6,7 +6,7 @@ This application analyzes recent logs, computes evidence-based metrics (error ra
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
 https://cf-ai-log-copilot.li-xinle.workers.dev
 
@@ -15,7 +15,7 @@ https://cf-ai-log-copilot.li-xinle.workers.dev
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Chat UI** (single-page HTML)
 - **Durable Objects state management** (session-based memory)
@@ -31,7 +31,7 @@ https://cf-ai-log-copilot.li-xinle.workers.dev
 
 ---
 
-## 🏗 Architecture
+## Architecture
 
 High-level flow:
 
@@ -60,7 +60,7 @@ Structured JSON response
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 cf_ai_log-copilot/
 │
@@ -88,7 +88,7 @@ cf_ai_log-copilot/
 
 ---
 
-## 🧠 LLM Design
+## LLM Design
 
 The prompt includes:
 
@@ -105,7 +105,7 @@ The application attempts to parse structured JSON from the model and falls back 
 
 ---
 
-## 💻 Local Development
+## Local Development
 
 ### Prerequisites
 
